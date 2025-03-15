@@ -1,6 +1,7 @@
 name: Create Issue with GitHub Token
 run-name: Create Issue with GitHub Token
-on: [ push ]
+on: [ workflow_dispatch ]
+# on: [ push ]
 jobs:
   create_issue:
     runs-on: ubuntu-latest
