@@ -1,6 +1,7 @@
 name: Open new issue
 run-name: Open new issue
-on: push
+# on: push
+on: [ workflow_dispatch ]
 jobs:
   open-issue:
     runs-on: ubuntu-latest
