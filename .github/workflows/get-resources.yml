@@ -1,0 +1,10 @@
+name: GitHub-hosted resources
+run-name: Testing out GitHub-hosted resources 🚀
+on: [ workflow_dispatch ]
+jobs:
+  Explore-GitHub-hosted-resources:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get number of CPU cores
+        uses: SimenB/github-actions-cpu-cores@v2
+        id: cpu-cores
